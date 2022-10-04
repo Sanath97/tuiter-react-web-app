@@ -1,0 +1,14 @@
+.wd-border-thin {
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-grid-row {
+    clear: both;
+}
+
+
+
+body {
+    background-color: black;
+    font-family: "Arial";
+}
