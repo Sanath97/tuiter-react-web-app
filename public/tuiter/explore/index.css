@@ -1,90 +1,34 @@
-.wd-rounded-corners-all-around {
-    border-radius: 50px;
-    background-color: darkgray;
-    width: 95%;
-    height: 35px;
-    padding-left: 16px;
-
-}
-
-.wd-grid-col-minor-page {
-    width: 5%;
-    float: right;
-    padding-top: 12px;
-}
-
-.wd-grid-col-major-page {
-    width: 92%;
-    float: left;
-    padding-left: 16px;
-    padding-top: 12px;
-}
-
-.wd-gear-style {
-    color: rgb(29, 161, 242);
-    padding-right: 12px;
-    font-size: 40px;
-
-}
-
-.wd-grid-row-hyperlinks {
-    clear: both;
-    width: 100%;
-}
-
-.wd-grid-row-link-selected {
-    width: 14.3%;
-    float: left;
-    padding: 16px;
-}
-
-.wd-grid-row-link {
-    width: 14.3%;
-    float: left;
-    padding: 16px;
-}
-
-.wd-grid-row-link-selected a{
-    text-decoration: none;
-    color: rgb(29, 161, 242);
-    border-bottom: solid 4px rgb(29, 161, 242);
-    padding-bottom: 12px;
-}
-
-.wd-grid-row-link a {
-    text-decoration: none;
-    color: rgb(110, 118, 125);
-    font-size: 15px;
-    padding-bottom: 12px;
-}
-
-.wd-topic-num-of-tuits-style {
-    color: rgb(110, 118, 125);
-    font-size: 13px;
-    padding-left: 16px;
-}
-
-.wd-title-style {
+.wd-container1 {
+    position: relative;
     color: white;
-    font-size: 15px;
-    font-weight: bold;
-    padding-left: 16px;
 }
 
-.wd-topic-tuit2-style {
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-    padding-left: 16px;
+/* Bottom left text */
+.wd-bottom-left {
+    position: absolute;
+    bottom: 2px;
+    left: 6px;
 }
 
-.wd-grid-col-major-page-tuit {
-    width: 100%;
-    float: left;
-}
 .wd-tuit-image-style {
     width: 100px;
     height: 100px;
     border-radius: 1em;
     margin-right: 16px;
+}
+
+.wd-has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.wd-has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
 }
