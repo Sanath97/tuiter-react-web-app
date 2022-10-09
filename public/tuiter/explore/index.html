@@ -5,24 +5,28 @@
     <title>Title</title>
     <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link href="index.css" rel="stylesheet"/>
 
 </head>
 <body>
-<div class="row container">
-    <div class="col-2 list-group bg-white text-black mt-1 ">
-        <i class="fab fa-twitter list-group-item"></i>
-        <a class="list-group-item list-group-item-action">
+<div class="row container wd-background">
+    <div class="col-2 list-group mt-1 ">
+        <i class="fa fa-t mb-1 list-group-item wd-background "></i>
+        <!--    <i class="fab fa-twitter mb-1 list-group-item wd-background"></i>-->
+        <a class="list-group-item list-group-item-action mb-1 wd-background">
             <div class="row">
                 <div class="col-1">
                     <i class="fa fa-home"></i>
+
                 </div>
                 <div class="col-2">
                     <span class="d-none d-xxl-block d-xl-block"> Home</span>
                 </div>
             </div>
         </a>
-        <a class="list-group-item list-group-item-action active">
+        <a class="list-group-item list-group-item-action mb-1 wd-background">
             <div class="row">
                 <div class="col-1">
                     <i class="fa fa-hashtag"></i>
@@ -32,7 +36,7 @@
                 </div>
             </div>
         </a>
-        <a class="list-group-item list-group-item-action">
+        <a class="list-group-item list-group-item-action mb-1 wd-background">
             <div class="row">
                 <div class="col-1">
                     <i class="fa fa-bell"></i>
@@ -42,7 +46,7 @@
                 </div>
             </div>
         </a>
-        <a class="list-group-item list-group-item-action">
+        <a class="list-group-item list-group-item-action mb-1 wd-background">
             <div class="row">
                 <div class="col-1">
                     <i class="fa fa-envelope"></i>
@@ -52,7 +56,7 @@
                 </div>
             </div>
         </a>
-        <a class="list-group-item list-group-item-action">
+        <a class="list-group-item list-group-item-action mb-1 wd-background">
             <div class="row">
                 <div class="col-1">
                     <i class="fa fa-bookmark"></i>
@@ -62,7 +66,7 @@
                 </div>
             </div>
         </a>
-        <a class="list-group-item list-group-item-action">
+        <a class="list-group-item list-group-item-action mb-1 wd-background">
 
             <div class="row">
                 <div class="col-1">
@@ -73,7 +77,7 @@
                 </div>
             </div>
         </a>
-        <a class="list-group-item list-group-item-action">
+        <a class="list-group-item list-group-item-action mb-1 wd-background">
             <div class="row">
                 <div class="col-1">
                     <i class="fa fa-user"></i>
@@ -83,7 +87,7 @@
                 </div>
             </div>
         </a>
-        <a class="list-group-item list-group-item-action">
+        <a class="list-group-item list-group-item-action mb-1 wd-background">
             <div class="row">
                 <div class="col-1">
                     <i class="fa fa-circle-thin fa-ellipsis-h"></i>
@@ -94,119 +98,118 @@
             </div>
         </a>
         <button class="btn btn-primary rounded-pill mt-1">Tweet</button>
-
     </div>
-    <div class="col-5 bg-white text-black mt-1 ms-1 me-1">
-        <div class="row mb-1">
-            <div class="col-11">
-                    <div class="form-group wd-has-search">
-                        <span class="fa fa-search text-black form-control-feedback"></span>
-                        <input type="text" class="form-control rounded-pill" placeholder="Search Twitter">
-                    </div>
+    <div class="col-5 mt-1 ms-1 me-1 ">
+        <div class="row">
+            <div class="col-11 ">
+                <div class="form-group wd-has-search ">
+                    <span class="fa fa-search form-control-feedback" style="color: #a9a9a9" ></span>
+                    <input type="text" class="form-control rounded-pill" placeholder="Search Twitter">
+                </div>
             </div>
             <div class="col-1">
-                <i class="fa fa-cog text-primary fa-2x"></i>
+                <i class="fa fa-cog text-white fa-1x"></i>
             </div>
         </div>
-        <ul class="nav nav-tabs mb-1">
+        <ul class="nav nav-tabs  wd-border-thin">
             <li class="nav-item">
-                <a class="nav-link active text-secondary" href="for-you.html">For You</a>
+                <a class="nav-link  active text-secondary" href="for-you.html">For You</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-primary" href="trending.html">Trending</a>
+                <a class="nav-link text-secondary" href="trending.html">Trending</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-primary" href="news.html">News</a>
+                <a class="nav-link text-secondary" href="news.html">News</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-primary" href="sports.html">Sports</a>
+                <a class="nav-link text-secondary " href="sports.html">Sports</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-primary d-none d-xxl-block d-xl-block d-lg-block d-md-block" href="entertainment.html">Entertainment</a>
+                <a class="nav-link text-secondary d-none d-xxl-block d-xl-block d-lg-block d-md-block" href="entertainment.html">Entertainment</a>
             </li>
         </ul>
-        <div>
+        <div class="wd-border-thin">
             <img src="../../images/starship.jpg" width="100%">
             <div class="wd-container1">
                 <div class="wd-bottom-left">
                     <h4>SpaceX's Starship</h4>
                 </div>
             </div>
-        </div>
-        <div class="list-group">
-            <div class="list-group-item list-group-item-action ">
-                <div class="row">
-                    <div class="col-9">
-                        <span class="text-secondary">Web Development<small></small></span>
-                        <br>
-                        <span class="fw-bold">ReactJS</span> <i class="fa fa-check-circle"></i><span class="text-secondary"> - 2h</span></span>
-                        <br>
-                        <span class="fw-bold">
+            <div class="list-group  ">
+                <div class="list-group-item list-group-item-action wd-background wd-border-thin">
+                    <div class="row">
+                        <div class="col-9 ">
+                            <span class="text-secondary">Web Development<small></small></span>
+                            <br>
+                            <span class="fw-bold">ReactJS</span> <i class="fa fa-check-circle"></i><span class="text-secondary"> - 2h</span></span>
+                            <br>
+                            <span class="fw-bold">
                             React.js is a component based front end library that makes it very easy to build Single
                             Page Applications or SPA's
                         </span>
-                    </div>
-                    <div class="col-1">
-                        <span ><img src="../../images/react.jpg" class="float-right wd-tuit-image-style"/></span></p>
+                        </div>
+                        <div class="col-1">
+                            <span ><img src="../../images/react.jpg" class="float-right wd-tuit-image-style"/></span></p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="list-group-item list-group-item-action ">
-                <div class="row">
-                    <div class="col-9">
-                        <span class="fw-bold">JavaScript</span> <i class="fa fa-check-circle"></i><span class="text-secondary"> - 2h</span></span>
-                        <br>
-                        <span class="fw-bold">
+                <div class="list-group-item list-group-item-action wd-background wd-border-thin">
+                    <div class="row">
+                        <div class="col-9">
+                            <span class="fw-bold">JavaScript</span> <i class="fa fa-check-circle"></i><span class="text-secondary"> - 2h</span></span>
+                            <br>
+                            <span class="fw-bold">
                             JavaScript is a programming language that can run on browsers as well as
                             desktops
                         </span>
-                        <br>
-                        <span class="text-secondary">123K Tweets</span>
-                    </div>
-                    <div class="col-1">
-                        <span ><img src="../../images/js.jpg" class="float-right wd-tuit-image-style"/></span></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="list-group-item list-group-item-action ">
-                <div class="row">
-                    <div class="col-9">
-                        <span class="text-secondary">Web Development<small></small></span>
-                        <br>
-                        <span class="fw-bold">jQuery</span>
-                        <br>
-                        <span class="text-secondary">123K Tweets</span></span>
-                    </div>
-                    <div class="col-1">
-                        <span ><img src="../../images/jquery.png" class="float-right wd-tuit-image-style"/></span></p>
+                            <br>
+                            <span class="text-secondary">123K Tweets</span>
+                        </div>
+                        <div class="col-1">
+                            <span ><img src="../../images/js.jpg" class="float-right wd-tuit-image-style"/></span></p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="list-group-item list-group-item-action ">
-                <div class="row">
-                    <div class="col-9">
-                        <span class="text-secondary">Web Development<small></small></span>
-                        <br>
-                        <span class="fw-bold">NodeJS</span><i class="fa fa-check-circle"></i><span class="text-secondary"> - 2h</span></span>
-                        <br>
-                        <span class="text-secondary">123K Tweets</span></span>
-                    </div>
-                    <div class="col-1">
-                        <span ><img src="../../images/nodejs.jpg" class="float-right wd-tuit-image-style"/></span></p>
+                <div class="list-group-item list-group-item-action wd-background wd-border-thin">
+                    <div class="row">
+                        <div class="col-9">
+                            <span class="text-secondary">Web Development<small></small></span>
+                            <br>
+                            <span class="fw-bold">jQuery</span>
+                            <br>
+                            <span class="text-secondary">123K Tweets</span></span>
+                        </div>
+                        <div class="col-1">
+                            <span ><img src="../../images/jquery.png" class="float-right wd-tuit-image-style"/></span></p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
+                <div class="list-group-item list-group-item-action wd-background wd-border-thin">
+                    <div class="row">
+                        <div class="col-9">
+                            <span class="text-secondary">Web Development<small></small></span>
+                            <br>
+                            <span class="fw-bold">NodeJS</span><i class="fa fa-check-circle"></i><span class="text-secondary"> - 2h</span></span>
+                            <br>
+                            <span class="text-secondary">123K Tweets</span></span>
+                        </div>
+                        <div class="col-1">
+                            <span ><img src="../../images/nodejs.jpg" class="float-right wd-tuit-image-style"/></span></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
-    <div class="col-4 bg-white text-black mt-1 d-none d-xxl-block d-xl-block d-lg-block">
-        <div class="list-group">
-            <span class="list-group-item list-group-item-action fw-bold">
+    <div class="col-4  mt-1 d-none d-xxl-block d-xl-block d-lg-block">
+        <div class="list-group ">
+            <span class="list-group-item list-group-item-action wd-challenge-right-background  wd-right-part-font-size fw-bold">
                 Who to follow</span>
-            <div class="list-group-item list-group-item-action">
+            <div class="list-group-item list-group-item-action wd-challenge-right-background">
                 <div class="row">
                     <div class="col-2">
                         <img src="../../images/java.jpg" class="rounded-circle" width="40" height="40">
@@ -214,14 +217,15 @@
                     <div class="col-lg-6">
                         <span class="fw-bold">Java</span> <i class="fa  fa-check-circle"></i>
                         <h6 class="text-secondary"><small>@Java</small>
-                                </h6>
+                        </h6>
                     </div>
                     <div class="col-2">
-                       <button class="btn float-right bg-primary text-white rounded-pill">Follow</button>
+                        <button class="btn float-right text-black bg-white rounded-pill">Follow</button>
                     </div>
                 </div>
             </div>
-            <div class="list-group-item list-group-item-action">
+
+            <div class="list-group-item list-group-item-action wd-challenge-right-background">
                 <div class="row">
                     <div class="col-2">
                         <img src="../../images/relativityspace.jpg" class="rounded-circle" width="40" height="40">
@@ -232,60 +236,57 @@
                         </h6>
                     </div>
                     <div class="col-2">
-                        <button class="btn float-right bg-primary text-white rounded-pill">Follow</button>
-                    </div>
-                </div>
-            </div>
-            <div class="list-group-item list-group-item-action">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="../../images/virgin.jpg" class="rounded-circle" width="40" height="40">
-                    </div>
-                    <div class="col-6">
-                        <span class="fw-bold">Virgin Galactic </span> <i class="fa  fa-check-circle"></i>
-                        <h6 class="text-secondary"><small>@virgingalactic</small>
-                        </h6>
-                    </div>
-                    <div class="col-2">
-                        <button class="btn float-right bg-primary text-white rounded-pill">Follow</button>
-                    </div>
-                </div>
-            </div>
-            <div class="list-group-item list-group-item-action">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="../../images/nasa.jpg" class="rounded-circle" width="40" height="40">
-                    </div>
-                    <div class="col-6">
-                        <span class="fw-bold">NASA </span> <i class="fa  fa-check-circle"></i>
-                        <h6 class="text-secondary"><small>@NASA</small>
-                        </h6>
-                    </div>
-                    <div class="col-2">
-                        <button class="btn float-right bg-primary text-white rounded-pill">Follow</button>
-                    </div>
-                </div>
-            </div>
-            <div class="list-group-item list-group-item-action">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="../../images/tesla.jpg" class="rounded-circle" width="40" height="40">
-                    </div>
-                    <div class="col-6">
-                        <span class="fw-bold">Tesla </span> <i class="fa fa-check-circle"></i>
-                        <h6 class="text-secondary"><small>@Tesla</small>
-                        </h6>
-                    </div>
-                    <div class="col-2">
-                        <button class="btn float-right bg-primary text-white rounded-pill">Follow</button>
+                        <button class="btn float-right text-black bg-white rounded-pill">Follow</button>
                     </div>
                 </div>
             </div>
         </div>
-
-
+        <div class="list-group-item list-group-item-action wd-challenge-right-background">
+            <div class="row">
+                <div class="col-2">
+                    <img src="../../images/virgin.jpg" class="rounded-circle" width="40" height="40">
+                </div>
+                <div class="col-6">
+                    <span class="fw-bold">Virgin Galactic </span> <i class="fa  fa-check-circle"></i>
+                    <h6 class="text-secondary"><small>@virgingalactic</small>
+                    </h6>
+                </div>
+                <div class="col-2">
+                    <button class="btn float-right text-black bg-white rounded-pill">Follow</button>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item list-group-item-action wd-challenge-right-background">
+            <div class="row">
+                <div class="col-2">
+                    <img src="../../images/nasa.jpg" class="rounded-circle" width="40" height="40">
+                </div>
+                <div class="col-6">
+                    <span class="fw-bold">NASA </span> <i class="fa  fa-check-circle"></i>
+                    <h6 class="text-secondary"><small>@NASA</small>
+                    </h6>
+                </div>
+                <div class="col-2">
+                    <button class="btn float-right text-black bg-white rounded-pill">Follow</button>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item list-group-item-action wd-challenge-right-background">
+            <div class="row">
+                <div class="col-2">
+                    <img src="../../images/tesla.jpg" class="rounded-circle" width="40" height="40">
+                </div>
+                <div class="col-6">
+                    <span class="fw-bold">Tesla </span> <i class="fa fa-check-circle"></i>
+                    <h6 class="text-secondary"><small>@Tesla</small>
+                    </h6>
+                </div>
+                <div class="col-2">
+                    <button class="btn float-right text-black bg-white rounded-pill">Follow</button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>
 </html>
-

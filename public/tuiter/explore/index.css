@@ -3,6 +3,40 @@
     color: white;
 }
 
+body {
+    background-color: black;
+    color: white;
+}
+
+.wd-border-thin {
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-search-background {
+    background-color: gray;
+}
+
+.wd-background {
+    background-color: black;
+    color: white;
+}
+
+.wd-challenge-center-border {
+    border-color: #282828;
+    border: 1px;
+}
+
+.wd-challenge-right-background {
+    background-color: #282828;
+    color: white;
+    border-radius: 4px;
+}
+
+.wd-background .div .i {
+    background-color: black;
+    color: white;
+}
+
 /* Bottom left text */
 .wd-bottom-left {
     position: absolute;
@@ -19,7 +53,15 @@
 
 .wd-has-search .form-control {
     padding-left: 2.375rem;
+    background-color: #282828;
+    border-color: #282828;
 }
+
+.wd-right-part-font-size {
+    font-size: 20px;
+}
+
+
 
 .wd-has-search .form-control-feedback {
     position: absolute;
@@ -30,5 +72,20 @@
     line-height: 2.375rem;
     text-align: center;
     pointer-events: none;
-    color: #aaa;
 }
+
+.wd-fa-search {
+    color: lightgray;
+}
+
+.nav-tabs .nav-item .active{
+    color: #282828;
+    background-color: black;
+    border-radius: 0;
+    border:none;
+    border-bottom: 5px solid #0275d8;
+}
+/*.nav-tabs .nav-item{*/
+/*    border-radius:0px;*/
+/*    color: #282828;*/
+/*}*/
