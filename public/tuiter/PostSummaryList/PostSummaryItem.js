@@ -14,7 +14,7 @@ const PostSummaryItem = (post) => {
                         </span>
                     </div>
                     <div class="col-1">
-                        <span ><img src=${post['image']} class="float-right wd-tuit-image-style"/></span></p>
+                        <span ><img src=${post['image']} class=" wd-tuit-image-style float-right"/></span></p>
                     </div>
                 </div>
             </div>
