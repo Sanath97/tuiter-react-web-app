@@ -34,7 +34,8 @@ console.log("In Tuit stats")
                 </div>
                 <div className="wd-grid-row-first">
 
-                    <i className="fa fa-heart"  style={{color: tuit.liked?'red': 'gray'}} ></i><span
+                    <i className={tuit.liked ? "fa fa-heart" : "fa fa-regular fa-heart"}
+                       style={{color: tuit.liked ? 'red' : 'gray'}}></i><span
                     className="wd-comments-style">{tuit.likes}</span>
                 </div>
                 <div className="wd-grid-row-first">
