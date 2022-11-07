@@ -53,9 +53,9 @@ const EditProfileComponent = () => {
 
                 <div className="card-img-top backpic">
                     <img className="profilepic__image" src="/images/react.jpg" alt="Card image cap"
-                         height={"350px"} width={"635px"}/>
+                         height={"350px"}/>
                     <div className="profilepic__content">
-                        <span className="profilepic__icon"><i className="fas fa-camera"></i></span>
+                        <span className="profilepic__icon"><i className="fas fa-camera"></i><i className="fas fa-xmark ps-5"></i></span>
                     </div>
                 </div>
 
