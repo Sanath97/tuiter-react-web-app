@@ -27,15 +27,8 @@
     float: left;
     /*padding-top: 12px;*/
     /*padding-left: 16px;*/
-    width: 50px;
-    height: 50px;
-}
-
-.wd-circular-image3 {
-    float: left;
-    margin-top: -60px;
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 40px;
 }
 
 .wd-circular-image2 {
@@ -48,6 +41,7 @@
 .fa-check-circle {
     color: #4285F4;
 }
+
 .wd-grid-col-tuit-major {
     float: left;
     width: 90%;
@@ -59,7 +53,7 @@
 .wd-main-tuit-content {
     font-size: 15px;
     padding-right: 16px;
-    padding-bottom: 12px;
+    padding-bottom: 0px;
     margin-top: -10px;
 }
 
@@ -110,72 +104,10 @@
 }
 
 .wd-comments-style {
-    padding-left: 12px
+    padding-left: 12px;
 }
 
 .wd-username-style {
-font-size: 15px;
-}
-
-.profilepic {
-    position: relative;
-    width: 128px;
-    height: 128px;
-    border-radius: 50%;
-    overflow: hidden;
-    background-color: #111;
-}
-
-.profilepic .profilepic__content {
-    opacity: 1;
-}
-
-.profilepic .profilepic__image {
-    opacity: .5;
-}
-
-.backpic {
-    position: relative;
-    overflow: hidden;
-    background-color: #111;
-}
-
-.backpic .profilepic__content {
-    opacity: 1;
-}
-
-.backpic .profilepic__image {
-    opacity: .5;
-}
-
-.profilepic__image {
-    object-fit: cover;
-    opacity: 1;
-    width: 100%;
-    transition: opacity .2s ease-in-out;
-}
-
-.profilepic__content {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    opacity: 0;
-    transition: opacity .2s ease-in-out;
-}
-
-.profilepic__icon {
-    color: white;
-    padding-bottom: 8px;
-}
-
-.fas {
-    font-size: 20px;
+    font-size: 15px;
 }
 
